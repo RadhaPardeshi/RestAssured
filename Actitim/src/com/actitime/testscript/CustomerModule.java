@@ -18,6 +18,7 @@ public class CustomerModule extends BaseClass  {
 	@Test
 	public void testCreateCustomer() throws InterruptedException, EncryptedDocumentException, IOException
 	{
+		System.out.println("Strated");
 		Reporter.log("Create Customer",true);
 		HomePage h=new HomePage(driver);
 		Thread.sleep(2000);
